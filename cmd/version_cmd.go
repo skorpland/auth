@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/spf13/cobra"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 var versionCmd = cobra.Command{

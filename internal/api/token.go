@@ -13,12 +13,12 @@ import (
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/xeipuuv/gojsonschema"
 
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/hooks"
-	"github.com/powerbase/auth/internal/metering"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/hooks"
+	"github.com/skorpland/auth/internal/metering"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // AccessTokenClaims is a struct thats used for JWT claims

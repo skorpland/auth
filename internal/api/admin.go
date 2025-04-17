@@ -10,12 +10,12 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
 	"github.com/sethvargo/go-password/password"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/provider"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/storage"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/storage"
+	"github.com/skorpland/auth/internal/utilities"
 	"golang.org/x/crypto/bcrypt"
 )
 

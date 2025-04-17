@@ -13,7 +13,7 @@ import (
 	"github.com/jmoiron/sqlx"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 // Connection is the interface a storage provider must implement.

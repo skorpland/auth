@@ -10,7 +10,7 @@ import (
 
 	"github.com/crewjam/saml"
 	"github.com/stretchr/testify/require"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 func TestSAMLMetadataWithAPI(t *tst.T) {

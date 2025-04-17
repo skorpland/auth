@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 func TestPasswordStrengthChecks(t *testing.T) {

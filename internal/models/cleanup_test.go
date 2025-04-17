@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/storage/test"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/storage/test"
 )
 
 func TestCleanup(t *testing.T) {

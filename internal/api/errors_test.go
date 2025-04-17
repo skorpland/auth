@@ -9,9 +9,9 @@ import (
 
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/require"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/observability"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/observability"
 )
 
 func TestHandleResponseErrorWithHTTPError(t *testing.T) {

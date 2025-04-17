@@ -10,7 +10,7 @@ import (
 
 	"github.com/fsnotify/fsnotify"
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 const (

@@ -16,7 +16,7 @@ import (
 
 	"github.com/coreos/go-oidc/v3/oidc"
 	jwt "github.com/golang-jwt/jwt/v5"
-	"github.com/powerbase/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/api/provider"
 )
 
 const (

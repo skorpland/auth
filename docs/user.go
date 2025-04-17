@@ -2,8 +2,8 @@
 package docs
 
 import (
-	"github.com/powerbase/auth/internal/api"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/api"
+	"github.com/skorpland/auth/internal/models"
 )
 
 // swagger:route GET /user user user-get

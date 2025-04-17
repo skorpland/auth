@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/crypto"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/crypto"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // MagicLinkParams holds the parameters for a magic link request

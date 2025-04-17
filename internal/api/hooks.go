@@ -17,11 +17,11 @@ import (
 	"github.com/sirupsen/logrus"
 	standardwebhooks "github.com/standard-webhooks/standard-webhooks/libraries/go"
 
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/hooks"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/hooks"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 const (

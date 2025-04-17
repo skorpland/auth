@@ -8,14 +8,14 @@ import (
 	"github.com/rs/cors"
 	"github.com/sebest/xff"
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/mailer"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/storage"
-	"github.com/powerbase/auth/internal/utilities"
-	"github.com/powerbase/hibp"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/mailer"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/storage"
+	"github.com/skorpland/auth/internal/utilities"
+	"github.com/skorpland/hibp"
 )
 
 const (

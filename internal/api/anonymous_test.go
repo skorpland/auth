@@ -13,9 +13,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"github.com/powerbase/auth/internal/conf"
-	mail "github.com/powerbase/auth/internal/mailer"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/conf"
+	mail "github.com/skorpland/auth/internal/mailer"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type AnonymousTestSuite struct {

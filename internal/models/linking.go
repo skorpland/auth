@@ -3,9 +3,9 @@ package models
 import (
 	"strings"
 
-	"github.com/powerbase/auth/internal/api/provider"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // GetAccountLinkingDomain returns a string that describes the account linking

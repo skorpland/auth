@@ -7,12 +7,12 @@ import (
 	"net/http"
 
 	"github.com/coreos/go-oidc/v3/oidc"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/provider"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // IdTokenGrantParams are the parameters the IdTokenGrant method accepts

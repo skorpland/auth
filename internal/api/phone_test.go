@@ -14,9 +14,9 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"github.com/powerbase/auth/internal/api/sms_provider"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/api/sms_provider"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type PhoneTestSuite struct {

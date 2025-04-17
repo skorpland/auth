@@ -357,7 +357,7 @@
 
 ### Bug Fixes
 
-* publish to ghcr.io/powerbase/auth ([#1626](https://github.com/skorpland/auth/issues/1626)) ([930aa3e](https://github.com/skorpland/auth/commit/930aa3edb633823d4510c2aff675672df06f1211)), closes [#1625](https://github.com/skorpland/auth/issues/1625)
+* publish to ghcr.io/skorpland/auth ([#1626](https://github.com/skorpland/auth/issues/1626)) ([930aa3e](https://github.com/skorpland/auth/commit/930aa3edb633823d4510c2aff675672df06f1211)), closes [#1625](https://github.com/skorpland/auth/issues/1625)
 * revert define search path in auth functions ([#1634](https://github.com/skorpland/auth/issues/1634)) ([155e87e](https://github.com/skorpland/auth/commit/155e87ef8129366d665968f64d1fc66676d07e16))
 * update MaxFrequency error message to reflect number of seconds ([#1540](https://github.com/skorpland/auth/issues/1540)) ([e81c25d](https://github.com/skorpland/auth/commit/e81c25d19551fdebfc5197d96bc220ddb0f8227b))
 

@@ -12,12 +12,12 @@ import (
 	"github.com/crewjam/saml"
 	"github.com/fatih/structs"
 	"github.com/gofrs/uuid"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/provider"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/storage"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/storage"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 func (a *API) samlDestroyRelayState(ctx context.Context, relayState *models.SAMLRelayState) error {

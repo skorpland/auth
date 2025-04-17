@@ -3,7 +3,7 @@ package ratelimit
 import (
 	"time"
 
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 	"golang.org/x/time/rate"
 )
 

@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 	"golang.org/x/oauth2"
 )
 

@@ -8,9 +8,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/storage"
-	"github.com/powerbase/auth/internal/storage/test"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/storage"
+	"github.com/skorpland/auth/internal/storage/test"
 )
 
 type FactorTestSuite struct {

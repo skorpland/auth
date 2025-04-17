@@ -2,7 +2,7 @@ package models
 
 import (
 	"github.com/gobuffalo/pop/v6"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 type Pagination struct {

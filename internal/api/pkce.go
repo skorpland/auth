@@ -4,9 +4,9 @@ import (
 	"regexp"
 
 	"github.com/gofrs/uuid"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 const (

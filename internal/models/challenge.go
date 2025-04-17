@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"github.com/go-webauthn/webauthn/webauthn"
 	"github.com/gofrs/uuid"
-	"github.com/powerbase/auth/internal/crypto"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/crypto"
+	"github.com/skorpland/auth/internal/storage"
 	"time"
 )
 

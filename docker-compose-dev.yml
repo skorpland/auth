@@ -11,10 +11,10 @@ services:
       - '9999:9999'
       - '9100:9100'
     environment:
-      - GOTRUE_DB_MIGRATIONS_PATH=/go/src/github.com/powerbase/auth/migrations
+      - GOTRUE_DB_MIGRATIONS_PATH=/go/src/github.com/skorpland/auth/migrations
     volumes:
-      - ./:/go/src/github.com/powerbase/auth
-    command: CompileDaemon --build="make build" --directory=/go/src/github.com/powerbase/auth --recursive=true -pattern="(.+\.go|.+\.env)" -exclude=auth -exclude=auth-arm64 -exclude=.env --command="/go/src/github.com/powerbase/auth/auth -c=.env.docker"
+      - ./:/go/src/github.com/skorpland/auth
+    command: CompileDaemon --build="make build" --directory=/go/src/github.com/skorpland/auth --recursive=true -pattern="(.+\.go|.+\.env)" -exclude=auth -exclude=auth-arm64 -exclude=.env --command="/go/src/github.com/skorpland/auth/auth -c=.env.docker"
   postgres:
     build:
       context: .

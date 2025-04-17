@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
-	mail "github.com/powerbase/auth/internal/mailer"
+	mail "github.com/skorpland/auth/internal/mailer"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type SignupTestSuite struct {

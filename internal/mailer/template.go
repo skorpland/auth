@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type MailRequest struct {

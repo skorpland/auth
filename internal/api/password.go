@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/apierrors"
 )
 
 // BCrypt hashed passwords have a 72 character limit

@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 func Example_newBurstLimiter() {

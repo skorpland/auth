@@ -6,8 +6,8 @@ import (
 	"net/url"
 
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
 )
 
 // Mailer defines the interface a mailer must implement.

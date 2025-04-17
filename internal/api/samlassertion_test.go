@@ -7,7 +7,7 @@ import (
 
 	"github.com/crewjam/saml"
 	"github.com/stretchr/testify/require"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/models"
 )
 
 func TestSAMLAssertionUserID(t *tst.T) {

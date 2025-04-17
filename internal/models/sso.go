@@ -12,7 +12,7 @@ import (
 	"github.com/crewjam/saml/samlsp"
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 type SSOProvider struct {

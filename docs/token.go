@@ -2,7 +2,7 @@
 package docs
 
 import (
-	"github.com/powerbase/auth/internal/api"
+	"github.com/skorpland/auth/internal/api"
 )
 
 // swagger:route POST /token?grant_type=password token token-password

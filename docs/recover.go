@@ -1,7 +1,7 @@
 //lint:file-ignore U1000 ignore go-swagger template
 package docs
 
-import "github.com/powerbase/auth/internal/api"
+import "github.com/skorpland/auth/internal/api"
 
 // swagger:route POST /recover recovery recovery
 // Sends a password recovery email link to the user's email.

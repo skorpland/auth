@@ -6,7 +6,7 @@ import (
 	tst "testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 func TestGetIPAddress(t *tst.T) {

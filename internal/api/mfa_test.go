@@ -13,12 +13,12 @@ import (
 	"github.com/gofrs/uuid"
 
 	"github.com/pquerna/otp"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/sms_provider"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/crypto"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/sms_provider"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/crypto"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/utilities"
 
 	"github.com/pquerna/otp/totp"
 	"github.com/stretchr/testify/require"

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/models"
 )
 
 var filterColumnMap = map[string][]string{

@@ -7,11 +7,11 @@ import (
 	"net/http"
 
 	"github.com/sethvargo/go-password/password"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/sms_provider"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/sms_provider"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // OtpParams contains the request body params for the otp endpoint

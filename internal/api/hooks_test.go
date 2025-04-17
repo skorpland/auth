@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/hooks"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/hooks"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 
 	"gopkg.in/h2non/gock.v1"
 )

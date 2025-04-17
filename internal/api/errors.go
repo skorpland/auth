@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 // Common error messages during signup flow

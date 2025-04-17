@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 const (

@@ -7,11 +7,11 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/security"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/security"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 func sendJSON(w http.ResponseWriter, status int, obj interface{}) error {

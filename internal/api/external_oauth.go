@@ -8,10 +8,10 @@ import (
 
 	"github.com/mrjones/oauth"
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/provider"
-	"github.com/powerbase/auth/internal/observability"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/observability"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 // OAuthProviderData contains the userData and token returned by the oauth provider

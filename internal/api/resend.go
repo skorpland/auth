@@ -3,11 +3,11 @@ package api
 import (
 	"net/http"
 
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/sms_provider"
-	mail "github.com/powerbase/auth/internal/mailer"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/sms_provider"
+	mail "github.com/skorpland/auth/internal/mailer"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // ResendConfirmationParams holds the parameters for a resend request

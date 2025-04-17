@@ -1,9 +1,9 @@
 .PHONY: all build deps dev-deps image migrate test vet sec format unused
 CHECK_FILES?=./...
 
-FLAGS=-ldflags "-X github.com/powerbase/auth/internal/utilities.Version=`git describe --tags`" -buildvcs=false
+FLAGS=-ldflags "-X github.com/skorpland/auth/internal/utilities.Version=`git describe --tags`" -buildvcs=false
 ifdef RELEASE_VERSION
-	FLAGS=-ldflags "-X github.com/powerbase/auth/internal/utilities.Version=v$(RELEASE_VERSION)" -buildvcs=false
+	FLAGS=-ldflags "-X github.com/skorpland/auth/internal/utilities.Version=v$(RELEASE_VERSION)" -buildvcs=false
 endif
 
 ifneq ($(shell docker compose version 2>/dev/null),)

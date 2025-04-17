@@ -6,7 +6,7 @@ import (
 	jwt "github.com/golang-jwt/jwt/v5"
 	"github.com/lestrrat-go/jwx/v2/jwa"
 	jwk "github.com/lestrrat-go/jwx/v2/jwk"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 type JwksResponse struct {

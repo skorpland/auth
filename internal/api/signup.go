@@ -8,12 +8,12 @@ import (
 	"github.com/fatih/structs"
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/provider"
-	"github.com/powerbase/auth/internal/api/sms_provider"
-	"github.com/powerbase/auth/internal/metering"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/provider"
+	"github.com/skorpland/auth/internal/api/sms_provider"
+	"github.com/skorpland/auth/internal/metering"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // SignupParams are the parameters the Signup endpoint accepts

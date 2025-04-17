@@ -1,4 +1,4 @@
-module github.com/powerbase/auth
+module github.com/skorpland/auth
 
 require (
 	github.com/Masterminds/semver/v3 v3.1.1 // indirect
@@ -97,7 +97,7 @@ require (
 	github.com/oapi-codegen/oapi-codegen/v2 v2.4.2-0.20250102212541-8bbe226927c9
 	github.com/oapi-codegen/runtime v1.1.1
 	github.com/standard-webhooks/standard-webhooks/libraries v0.0.0-20240303152453-e0e82adf1721
-	github.com/powerbase/hibp v0.0.0-20231124125943-d225752ae869
+	github.com/skorpland/hibp v0.0.0-20231124125943-d225752ae869
 	github.com/xeipuuv/gojsonschema v1.2.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.51.0
 	go.opentelemetry.io/otel/exporters/otlp/otlpmetric/otlpmetricgrpc v1.26.0
@@ -173,4 +173,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-go 1.23.7
+go 1.23

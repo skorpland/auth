@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 var (

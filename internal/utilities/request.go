@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 // GetIPAddress returns the real IP address of the HTTP request. It parses the

@@ -9,7 +9,7 @@ import (
 
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 type OneTimeTokenType int

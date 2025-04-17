@@ -5,7 +5,7 @@ ENV GOOS=linux
 
 RUN apk add --no-cache make git bash
 
-WORKDIR /go/src/github.com/powerbase/auth
+WORKDIR /go/src/github.com/skorpland/auth
 
 # Pulling dependencies
 COPY ./Makefile ./go.* ./

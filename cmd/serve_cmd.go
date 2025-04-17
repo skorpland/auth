@@ -13,11 +13,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
-	"github.com/powerbase/auth/internal/api"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/reloader"
-	"github.com/powerbase/auth/internal/storage"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/api"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/reloader"
+	"github.com/skorpland/auth/internal/storage"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 var serveCmd = cobra.Command{

@@ -3,7 +3,7 @@ package ratelimit
 import (
 	"testing"
 
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 func TestNew(t *testing.T) {

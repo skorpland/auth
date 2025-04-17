@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 func SetupDBConnection(globalConfig *conf.GlobalConfiguration) (*storage.Connection, error) {

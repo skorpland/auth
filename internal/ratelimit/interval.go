@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 )
 
 // IntervalLimiter will limit the number of calls to Allow per interval.

@@ -9,7 +9,7 @@ import (
 	"github.com/gobuffalo/pop/v6"
 	"github.com/gobuffalo/pop/v6/logging"
 	"github.com/sirupsen/logrus"
-	"github.com/powerbase/auth/internal/conf"
+	"github.com/skorpland/auth/internal/conf"
 	"go.opentelemetry.io/otel"
 )
 

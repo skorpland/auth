@@ -13,7 +13,7 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/utilities"
 )
 
 type GotrueRequest struct {

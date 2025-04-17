@@ -13,8 +13,8 @@ import (
 	"github.com/gobuffalo/pop/v6"
 	"github.com/gofrs/uuid"
 	"github.com/pkg/errors"
-	"github.com/powerbase/auth/internal/crypto"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/crypto"
+	"github.com/skorpland/auth/internal/storage"
 	"golang.org/x/crypto/bcrypt"
 )
 

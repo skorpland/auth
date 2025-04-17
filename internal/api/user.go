@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/gofrs/uuid"
-	"github.com/powerbase/auth/internal/api/apierrors"
-	"github.com/powerbase/auth/internal/api/sms_provider"
-	"github.com/powerbase/auth/internal/mailer"
-	"github.com/powerbase/auth/internal/models"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/api/apierrors"
+	"github.com/skorpland/auth/internal/api/sms_provider"
+	"github.com/skorpland/auth/internal/mailer"
+	"github.com/skorpland/auth/internal/models"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 // UserUpdateParams parameters for updating a user

@@ -2,7 +2,7 @@
 package docs
 
 import (
-	"github.com/powerbase/auth/internal/api"
+	"github.com/skorpland/auth/internal/api"
 )
 
 // swagger:route GET /admin/users admin admin-list-users

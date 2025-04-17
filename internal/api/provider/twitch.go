@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/utilities"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/utilities"
 	"golang.org/x/oauth2"
 )
 

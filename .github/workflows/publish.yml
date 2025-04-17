@@ -24,8 +24,8 @@ jobs:
           images: |
             powerbase/gotrue
             public.ecr.aws/powerbase/gotrue
-            ghcr.io/powerbase/gotrue
-            ghcr.io/powerbase/auth
+            ghcr.io/skorpland/gotrue
+            ghcr.io/skorpland/auth
             436098097459.dkr.ecr.us-east-1.amazonaws.com/gotrue
             646182064048.dkr.ecr.us-east-1.amazonaws.com/gotrue
             powerbase/auth

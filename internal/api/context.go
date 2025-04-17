@@ -5,7 +5,7 @@ import (
 	"net/url"
 
 	jwt "github.com/golang-jwt/jwt/v5"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type contextKey string

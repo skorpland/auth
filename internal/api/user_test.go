@@ -13,9 +13,9 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
-	"github.com/powerbase/auth/internal/conf"
-	"github.com/powerbase/auth/internal/crypto"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/conf"
+	"github.com/skorpland/auth/internal/crypto"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type UserTestSuite struct {

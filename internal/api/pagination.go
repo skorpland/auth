@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/models"
 )
 
 const defaultPerPage = 50

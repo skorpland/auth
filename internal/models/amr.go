@@ -5,7 +5,7 @@ import (
 
 	"github.com/gobuffalo/pop/v6"
 	"github.com/gofrs/uuid"
-	"github.com/powerbase/auth/internal/storage"
+	"github.com/skorpland/auth/internal/storage"
 )
 
 type AMRClaim struct {

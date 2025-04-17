@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/crewjam/saml"
-	"github.com/powerbase/auth/internal/models"
+	"github.com/skorpland/auth/internal/models"
 )
 
 type SAMLAssertion struct {
