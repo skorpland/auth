@@ -224,7 +224,7 @@ type HIBPConfiguration struct {
 	Enabled    bool `json:"enabled"`
 	FailClosed bool `json:"fail_closed" split_words:"true"`
 
-	UserAgent string `json:"user_agent" split_words:"true" default:"https://github.com/powerbase/gotrue"`
+	UserAgent string `json:"user_agent" split_words:"true" default:"https://github.com/skorpland/gotrue"`
 
 	Bloom HIBPBloomConfiguration `json:"bloom"`
 }

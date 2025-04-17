@@ -13,10 +13,10 @@ import (
 
 type Identity struct {
 	// returned as identity_id in JSON for backward compatibility with the interface exposed by the client library
-	// see https://github.com/powerbase/gotrue-js/blob/c9296bbc27a2f036af55c1f33fca5930704bd021/src/lib/types.ts#L230-L240
+	// see https://github.com/skorpland/gotrue-js/blob/c9296bbc27a2f036af55c1f33fca5930704bd021/src/lib/types.ts#L230-L240
 	ID uuid.UUID `json:"identity_id" db:"id"`
 	// returned as id in JSON for backward compatibility with the interface exposed by the client library
-	// see https://github.com/powerbase/gotrue-js/blob/c9296bbc27a2f036af55c1f33fca5930704bd021/src/lib/types.ts#L230-L240
+	// see https://github.com/skorpland/gotrue-js/blob/c9296bbc27a2f036af55c1f33fca5930704bd021/src/lib/types.ts#L230-L240
 	ProviderID   string             `json:"id" db:"provider_id"`
 	UserID       uuid.UUID          `json:"user_id" db:"user_id"`
 	IdentityData JSONMap            `json:"identity_data,omitempty" db:"identity_data"`

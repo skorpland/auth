@@ -91,7 +91,7 @@ func performPKCEAuthorizationRequest(ts *ExternalTestSuite, provider, codeChalle
 	}
 
 	req := httptest.NewRequest(http.MethodGet, authorizeURL, nil)
-	req.Header.Set("Referer", "https://example.powerbase.com/admin")
+	req.Header.Set("Referer", "https://example.powerbase.club/admin")
 	w := httptest.NewRecorder()
 	ts.API.handler.ServeHTTP(w, req)
 	return w

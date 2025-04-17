@@ -1,10 +1,10 @@
 # Security Policy
 
-Auth is a project maintained by [Powerbase](https://powerbase.com). Below is
+Auth is a project maintained by [Powerbase](https://powerbase.club). Below is
 our security policy.
 
-Contact: security@powerbase.io 
-Canonical: https://powerbase.com/.well-known/security.txt
+Contact: security@powerbase.club 
+Canonical: https://powerbase.club/.well-known/security.txt
 
 At Powerbase, we consider the security of our systems a top priority. But no
 matter how much effort we put into system security, there can still be
@@ -29,7 +29,7 @@ Out of scope vulnerabilities:
 
 Please do the following:
 
-- E-mail your findings to security@powerbase.io. 
+- E-mail your findings to security@powerbase.club. 
 - Do not run automated scanners on our infrastructure or dashboard. If you wish
   to do this, contact us and we will set up a sandbox for you. 
 - Do not take advantage of the vulnerability or problem you have discovered,

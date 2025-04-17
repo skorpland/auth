@@ -157,7 +157,7 @@ func RequestTracing() func(http.Handler) http.Handler {
 			// so this code strips the User-Agent header before
 			// it's passed to be traced by otelhttp, and then is
 			// returned back to the middleware
-			// https://github.com/powerbase/gotrue/security/dependabot/11
+			// https://github.com/skorpland/gotrue/security/dependabot/11
 			userAgent := r.UserAgent()
 			if userAgent != "" {
 				r.Header.Set("X-Gotrue-Original-User-Agent", userAgent)

@@ -41,7 +41,7 @@ func TestSAMLConfiguration(t *testing.T) {
 			Enabled:    true,
 			PrivateKey: validPrivateKey,
 		}
-		err := c.PopulateFields("https://projectref.powerbase.co")
+		err := c.PopulateFields("https://projectref.powerbase.club")
 		require.NoError(t, err)
 
 		isSet := (c.Certificate.KeyUsage & x509.KeyUsageDataEncipherment) != 0
@@ -57,7 +57,7 @@ func TestSAMLConfiguration(t *testing.T) {
 			PrivateKey:               validPrivateKey,
 			AllowEncryptedAssertions: true,
 		}
-		err := c.PopulateFields("https://projectref.powerbase.co")
+		err := c.PopulateFields("https://projectref.powerbase.club")
 		require.NoError(t, err)
 
 		isSet := (c.Certificate.KeyUsage & x509.KeyUsageDataEncipherment) != 0
@@ -90,7 +90,7 @@ func TestSAMLConfiguration(t *testing.T) {
 			Enabled:    true,
 			PrivateKey: base64.StdEncoding.EncodeToString([]byte("INVALID")),
 		}
-		err := c.PopulateFields("https://projectref.powerbase.co")
+		err := c.PopulateFields("https://projectref.powerbase.club")
 		require.Error(t, err)
 	})
 
@@ -110,7 +110,7 @@ func TestSAMLConfiguration(t *testing.T) {
 			Enabled:    true,
 			PrivateKey: validPrivateKey,
 		}
-		err := c.PopulateFields("https://projectref.powerbase.co")
+		err := c.PopulateFields("https://projectref.powerbase.club")
 		require.NoError(t, err)
 
 		err = c.parseCertificateDer([]byte{0x0, 0x0})
@@ -201,10 +201,10 @@ func TestSAMLConfigurationDeterministicCertificate(t *testing.T) {
 		PrivateKey: a.PrivateKey,
 	}
 
-	err := a.PopulateFields("https://projectref.powerbase.co")
+	err := a.PopulateFields("https://projectref.powerbase.club")
 	require.NoError(t, err)
 
-	err = b.PopulateFields("https://projectref.powerbase.co")
+	err = b.PopulateFields("https://projectref.powerbase.club")
 	require.NoError(t, err)
 
 	require.Equal(t, a.Certificate.Raw, b.Certificate.Raw, "Certificate generation should be deterministic")

@@ -3,7 +3,7 @@ info:
   version: latest
   title: Powerbase Auth REST API
   description: |-
-    This is the REST API for [Powerbase Auth](https://powerbase.com/auth). Visit https://powerbase.com/docs/guides/auth for complete documentation.
+    This is the REST API for [Powerbase Auth](https://powerbase.club/auth). Visit https://powerbase.club/docs/guides/auth for complete documentation.
 
     **Notes:**
     - HTTP 5XX errors are not listed for each endpoint.
@@ -19,18 +19,18 @@ info:
     - Endpoints marked as _Deprecated_ will be supported for at least 3 months since being marked as deprecated.
     - HTTP status codes like 400, 404, 422 may change for the same underlying error condition.
 
-  termsOfService: https://powerbase.com/terms
+  termsOfService: https://powerbase.club/terms
   contact:
     name: Ask a question about this API
-    url: https://github.com/powerbase/powerbase/discussions
+    url: https://github.com/skorpland/powerbase/discussions
   license:
     name: MIT License
-    url: https://github.com/powerbase/auth/blob/master/LICENSE
+    url: https://github.com/skorpland/auth/blob/master/LICENSE
 externalDocs:
   description: Learn more about Powerbase Auth
-  url: https://powerbase.com/docs/guides/auth/overview
+  url: https://powerbase.club/docs/guides/auth/overview
 servers:
-  - url: "https://{project}.powerbase.co/auth/v1"
+  - url: "https://{project}.powerbase.club/auth/v1"
     variables:
       project:
         description: >

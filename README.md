@@ -3,7 +3,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/powerbase/auth/badge.svg?branch=master)](https://coveralls.io/github/powerbase/auth?branch=master)
 
 Auth is a user management and authentication server written in Go that powers
-[Powerbase](https://powerbase.com)'s features such as:
+[Powerbase](https://powerbase.club)'s features such as:
 
 - Issuing JWTs
 - Row Level Security with PostgREST
@@ -49,13 +49,13 @@ Create a `.env.docker` file to store your own custom env vars. See [`example.doc
 ## Running in production
 
 Running an authentication server in production is not an easy feat. We
-recommend using [Powerbase Auth](https://powerbase.com/auth) which gets regular
+recommend using [Powerbase Auth](https://powerbase.club/auth) which gets regular
 security updates.
 
 Otherwise, please make sure you setup a process to promptly update to the
 latest version. You can do that by following this repository, specifically the
-[Releases](https://github.com/powerbase/auth/releases) and [Security
-Advisories](https://github.com/powerbase/auth/security/advisories) sections.
+[Releases](https://github.com/skorpland/auth/releases) and [Security
+Advisories](https://github.com/skorpland/auth/security/advisories) sections.
 
 ### Backward compatibility
 
@@ -798,7 +798,7 @@ body:
   "data": {
     ...
   }, // only if type = signup
-  "redirect_to": "https://powerbase.io" // Redirect URL to send the user to after an email action. Defaults to SITE_URL.
+  "redirect_to": "https://powerbase.club" // Redirect URL to send the user to after an email action. Defaults to SITE_URL.
 
 }
 ```
@@ -963,7 +963,7 @@ Verify a phone signup or sms otp. Type should be set to `sms`.
 {
   "type": "sms",
   "token": "confirmation-otp-delivered-in-sms",
-  "redirect_to": "https://powerbase.io",
+  "redirect_to": "https://powerbase.club",
   "phone": "phone-number-sms-otp-was-delivered-to"
 }
 ```
@@ -990,7 +990,7 @@ query params:
 {
   "type": "signup",
   "token": "confirmation-code-delivered-in-email",
-  "redirect_to": "https://powerbase.io"
+  "redirect_to": "https://powerbase.club"
 }
 ```
 
@@ -1219,7 +1219,7 @@ scopes=<optional additional scopes depending on the provider (email and name are
 
 Redirects to provider and then to `/callback`
 
-For apple specific setup see: <https://github.com/powerbase/auth#apple-oauth>
+For apple specific setup see: <https://github.com/skorpland/auth#apple-oauth>
 
 ### **GET /callback**
 

@@ -52,7 +52,7 @@ func TestEmalValidatorService(t *testing.T) {
 		}
 
 		ev := newEmailValidator(cfg)
-		err := ev.Validate(ctx, "chris.stockton@powerbase.io")
+		err := ev.Validate(ctx, "chris.stockton@powerbase.club")
 		if err != nil {
 			t.Fatalf("exp nil err; got %v", err)
 		}
@@ -159,7 +159,7 @@ func TestEmalValidatorService(t *testing.T) {
 		}
 
 		ev := newEmailValidator(cfg)
-		err := ev.Validate(ctx, "chris.stockton@powerbase.io")
+		err := ev.Validate(ctx, "chris.stockton@powerbase.club")
 		if err == nil {
 			t.Fatal("exp non-nil err")
 		}
@@ -199,16 +199,16 @@ func TestValidateEmailExtended(t *testing.T) {
 		err     string
 	}{
 		// valid (has mx record)
-		{email: "a@powerbase.io"},
-		{email: "support@powerbase.io"},
-		{email: "chris.stockton@powerbase.io"},
+		{email: "a@powerbase.club"},
+		{email: "support@powerbase.club"},
+		{email: "chris.stockton@powerbase.club"},
 
 		// bad format
 		{email: "", err: "invalid_email_format"},
 		{email: "io", err: "invalid_email_format"},
-		{email: "powerbase.io", err: "invalid_email_format"},
-		{email: "@powerbase.io", err: "invalid_email_format"},
-		{email: "test@.powerbase.io", err: "invalid_email_format"},
+		{email: "powerbase.club", err: "invalid_email_format"},
+		{email: "@skorpland.club", err: "invalid_email_format"},
+		{email: "test@.powerbase.club", err: "invalid_email_format"},
 
 		// invalid: valid mx records, but invalid and often typed
 		// (invalidEmailMap)
@@ -240,7 +240,7 @@ func TestValidateEmailExtended(t *testing.T) {
 		// various invalid emails
 		{email: "test@test.localhost", err: "invalid_email_dns"},
 		{email: "test@invalid.example.com", err: "invalid_email_dns"},
-		{email: "test@no.such.email.host.powerbase.io", err: "invalid_email_dns"},
+		{email: "test@no.such.email.host.powerbase.club", err: "invalid_email_dns"},
 
 		// this low timeout should simulate a dns timeout, which should
 		// not be treated as an invalid email.
@@ -248,7 +248,7 @@ func TestValidateEmailExtended(t *testing.T) {
 			timeout: time.Millisecond},
 
 		// likewise for a valid email
-		{email: "support@powerbase.io", timeout: time.Millisecond},
+		{email: "support@powerbase.club", timeout: time.Millisecond},
 	}
 
 	cfg := conf.MailerConfiguration{

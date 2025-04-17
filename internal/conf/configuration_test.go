@@ -359,7 +359,7 @@ func TestValidateExtensibilityPointURI(t *testing.T) {
 
 		// Negative test cases
 		{desc: "Invalid HTTP URI", uri: "http://asdfgggg.website.co/functions/v1/custom-sms-sender", expectError: true},
-		{desc: "Invalid HTTPS URI (HTTP)", uri: "http://asdfgggqqwwerty.powerbase.co/functions/v1/custom-sms-sender", expectError: true},
+		{desc: "Invalid HTTPS URI (HTTP)", uri: "http://asdfgggqqwwerty.powerbase.club/functions/v1/custom-sms-sender", expectError: true},
 		{desc: "Invalid Schema Name", uri: "pg-functions://postgres/123auth/verification_hook_reject", expectError: true},
 		{desc: "Invalid Function Name", uri: "pg-functions://postgres/auth/123verification_hook_reject", expectError: true},
 		{desc: "Insufficient Path Parts", uri: "pg-functions://postgres/auth", expectError: true},

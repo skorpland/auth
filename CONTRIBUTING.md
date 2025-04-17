@@ -89,10 +89,10 @@ If you are on macOS Catalina you may [run into issues installing Soda with Brew]
 
 `go build -o /bin/soda github.com/gobuffalo/pop/soda` to resolve.
 
-- Clone the Auth [repository](https://github.com/powerbase/auth)
+- Clone the Auth [repository](https://github.com/skorpland/auth)
 
 ```zsh
-git clone https://github.com/powerbase/auth
+git clone https://github.com/skorpland/auth
 ```
 
 ### Install Auth
@@ -495,7 +495,7 @@ We actively welcome your pull requests.
 
 - Is there a corresponding issue created for it? If so, please include it in the PR description so we can track / refer to it.
 - Does your PR follow the [semantic-release commit guidelines](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines)?
-- If the PR is a `feat`, an [RFC](https://github.com/powerbase/rfcs) or a detailed description of the design implementation is required. The former (RFC) is preferred before starting on the PR.
+- If the PR is a `feat`, an [RFC](https://github.com/skorpland/rfcs) or a detailed description of the design implementation is required. The former (RFC) is preferred before starting on the PR.
 - Are the existing tests passing?
 - Have you written some tests for your PR?
 

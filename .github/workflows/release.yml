@@ -106,7 +106,7 @@ jobs:
               -n "This is a release candidate. See release-please PR #$PR_NUMBER for context."
 
             GH_TOKEN='${{ github.token }}' gh pr comment "$PR_NUMBER" \
-              -b "Release candidate [v$RELEASE_VERSION](https://github.com/powerbase/gotrue/releases/tag/$RELEASE_NAME) published."
+              -b "Release candidate [v$RELEASE_VERSION](https://github.com/skorpland/gotrue/releases/tag/$RELEASE_NAME) published."
           else
             if [ "$GITHUB_REF" == "refs/heads/main" ] || [ "$GITHUB_REF" == "refs/heads/master" ]
             then
