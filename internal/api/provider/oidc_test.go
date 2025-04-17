@@ -69,16 +69,10 @@ func azureIDTokenVerifier(ctx context.Context, config *oidc.Config) *oidc.IDToke
 
 var realIDTokens map[string]realIDToken = map[string]realIDToken{
 	IssuerGoogle: {
-		AccessToken: "USEOWN",
-		IDToken:     "USEOWN",
-		Time:        time.Unix(1686659933, 0), // 1 sec after iat
-		Verifier:    googleIDTokenVerifier,
+ 
 	},
 	IssuerAzureMicrosoft: {
-		AccessToken: "access-token",
-		Time:        time.Unix(1697277774, 0), // 1 sec after iat
-		IDToken:     "USEOWN",
-		Verifier:    azureIDTokenVerifier,
+	 
 	},
 }
 
